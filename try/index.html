@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>InstaCreate — Landing</title>
+
+  <!-- Poppins Font -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- HERO SECTION -->
+  <header class="hero-section">
+    <div class="frame hero-frame">
+      <div class="hero-left">
+        <h1 class="hero-title">
+          Looking for a<br>
+          social media<br>
+          wizard?
+        </h1>
+        <p class="hero-sub">InstaCreate creates marketing magic!</p>
+        <p class="hero-note"><em>See how your business benefits</em></p>
+        <a class="btn-outline" href="#" id="learn-more-btn">Learn More</a>  <!-- Updated to trigger chatbot -->
+      </div>
+
+      <div class="hero-right">
+        <div class="arch-frame">
+          <div class="image-placeholder arch-image">
+            <img src="logo.png" alt="InstaCreate logo" class="logo-in-arch" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- CONTACT CARD SECTION -->
+  <section id="contact-card" class="contact-card-section">
+    <div class="frame contact-frame">
+
+      <!-- Left Content -->
+      <div class="contact-left">
+        <div class="brand">
+          <div class="rounded-icon"></div>
+          <div class="brand-text">
+            <div class="brand-title">InstaCreate</div>
+            <div class="brand-sub">Marketing Materials Layout Services</div>
+          </div>
+        </div>
+
+        <div class="contact-lines">
+          <div class="line">
+            <span class="icon phone-ico"></span>
+            <div class="line-text">
+              +639953718425<br>
+              +63456033717
+            </div>
+          </div>
+
+          <div class="line">
+            <span class="icon fb-ico"></span>
+            <div class="line-text">InstaCreate</div>
+          </div>
+
+          <div class="line">
+            <span class="icon home-ico"></span>
+            <div class="line-text">
+              South Spring, Block 18, Lot 16,<br>
+              San Miguel, Sto. Tomas.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Side Image -->
+      <div class="contact-right">
+        <img src="row.png" alt="InstaCreate Logo" class="contact-logo" />
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section class="about-section">
+    <div class="frame about-frame">
+
+      <div class="about-left">
+        <div class="arch-photo-frame">
+          <div class="photo-placeholder">
+            <img
+              src="food.jpeg"
+              alt="Food Menu"
+              style="width:100%; height:100%; object-fit:cover; border-radius:10px;"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="about-right">
+        <h2 class="about-title">About Us</h2>
+        <p class="about-text">
+          InstaCreate is a creative layout service that transforms ideas into eye-catching marketing materials.
+          We specialize in designing ready-made and customizable digital templates perfect for businesses,
+          students, and content creators who want to stand out effortlessly.
+        </p>
+        <p class="about-text small">
+          What sets us apart is our innovative approach — we provide not only digital copies but also printed
+          versions of our designs with delivery services, making it easier for clients to turn concepts into
+          high-quality, tangible materials.
+        </p>
+        <a class="btn-outline light" href="#services">Work with us!</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SERVICES SECTION -->
+  <section id="services" class="services-section">
+    <div class="frame services-frame">
+      <h2 class="services-title">Services</h2>
+
+      <div class="services-grid">
+        <div class="service">
+          <div class="service-num">1</div>
+          <div class="service-text">Social media<br>Marketing</div>
+        </div>
+
+        <div class="service">
+          <div class="service-num">2</div>
+          <div class="service-text">Tarpaulins</div>
+        </div>
+
+        <div class="service">
+          <div class="service-num">3</div>
+          <div class="service-text">Digital template<br>designs</div>
+        </div>
+
+        <div class="service">
+          <div class="service-num">4</div>
+          <div class="service-text">Customize layout<br>services</div>
+        </div>
+
+        <div class="service">
+          <div class="service-num">5</div>
+          <div class="service-text">Printing services</div>
+        </div>
+
+        <div class="service">
+          <div class="service-num">6</div>
+          <div class="service-text">Delivery services</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER SECTION -->
+  <footer class="footer-section">
+    <div class="frame footer-frame">
+      <h2 class="footer-title">Contact Us</h2>
+
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div class="footer-name">InstaCreate</div>
+          <div class="footer-phone">+639953718425</div>
+        </div>
+
+        <div class="footer-col">
+          <div class="footer-email">instacreate@gmail.com</div>
+          <div class="footer-handle">@instacreate</div>
+        </div>
+
+        <div class="footer-col social">
+          <div class="social-icons">
+            <span>IG</span>
+            <span>TW</span>
+            <span>FB</span>
+          </div>
+        </div>
+      </div>
+
+      <a class="btn-outline" href="#contact">Get a free consultation</a>
+    </div>
+  </footer>
+
+  <!-- CHATBOT MODAL -->
+  <div id="chatbot-modal" class="chatbot-modal">
+    <div class="chatbot-content">
+      <div class="chatbot-header">
+        <h3>InstaCreate Chatbot</h3>
+        <span class="chatbot-close">&times;</span>
+      </div>
+      <div id="chat-history" class="chat-history"></div>
+      <div id="quick-replies" class="quick-replies"></div>
+      <div class="chat-input-area">
+        <input type="text" id="chat-input" placeholder="Type your message..." />
+        <button id="send-btn">Send</button>
+      </div>
+    </div>
+  </div>
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+
+  <!-- JavaScript for Chatbot -->
+  <script>
+    // Modal elements
+    const modal = document.getElementById('chatbot-modal');
+    const closeBtn = document.querySelector('.chatbot-close');
+    const learnMoreBtn = document.getElementById('learn-more-btn');
+    const chatHistory = document.getElementById('chat-history');
+    const quickReplies = document.getElementById('quick-replies');
+    const chatInput = document.getElementById('chat-input');
+    const sendBtn = document.getElementById('send-btn');
+
+    // Chat state
+    let chatState = 0; // 0: initial, 1: services intro, 2: prices, etc.
+
+    // Open modal on Learn More click
+    learnMoreBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      modal.style.display = 'block';
+      startChat();
+    });
+
+    // Close modal
+    closeBtn.addEventListener('click', () => {
+      modal.style.display = 'none';
+      resetChat();
+    });
+
+    // Close on outside click
+    window.addEventListener('click', (e) => {
+      if (e.target === modal) {
+        modal.style.display = 'none';
+        resetChat();
+      }
+    });
+
+    // ESC key to close
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && modal.style.display === 'block') {
+        modal.style.display = 'none';
+        resetChat();
+      }
+    });
+
+    // Send message
+    sendBtn.addEventListener('click', sendMessage);
+    chatInput.addEventListener('keypress', (e) => {
+      if (e.key === 'Enter') sendMessage();
+    });
+
+    function sendMessage() {
+      const message = chatInput.value.trim();
+      if (!message) return;
+      addMessage('user', message);
+      chatInput.value = '';
+      handleResponse(message);
+    }
+
+    function addMessage(sender, text, isLink = false) {
+      const msgDiv = document.createElement('div');
+      msgDiv.className = `chat-message ${sender}`;
+      if (isLink) {
+        msgDiv.innerHTML = text; // Allow HTML for links
+      } else {
+        msgDiv.textContent = text;
+      }
+      chatHistory.appendChild(msgDiv);
+      chatHistory.scrollTop = chatHistory.scrollHeight;
+    }
+
+    function addQuickReplies(options) {
+      quickReplies.innerHTML = '';
+      options.forEach(option => {
+        const btn = document.createElement('button');
+        btn.className = 'quick-reply-btn';
+        btn.textContent = option.label;
+        btn.addEventListener('click', () => handleResponse(option.value));
+        quickReplies.appendChild(btn);
+      });
+    }
+
+    function startChat() {
+      chatState = 0;
+      chatHistory.innerHTML = '';
+      addMessage('bot', 'Hi! Welcome to InstaCreate – your affordable design team in Tanauan City, Batangas! We create logos, flyers, menus, stickers, social media posts & more – fast and pro-level. Ready to start?');
+      addQuickReplies([
+        { label: '1. See our services', value: '1' },
+        { label: '2. Check prices', value: '2' },
+        { label: '3. Talk to human (Jemar Romero)', value: '3' }
+      ]);
+    }
+
+    function handleResponse(input) {
+      switch (chatState) {
+        case 0: // Initial menu
+          if (input === '1') {
+            chatState = 1;
+            addMessage('bot', 'We design: logos, flyers & tarpaulins, menus & business cards, social media graphics, stickers & packaging. Interested to order?');
+            addQuickReplies([
+              { label: 'Yes', value: 'yes' },
+              { label: 'No', value: 'no' }
+            ]);
+          } else if (input === '2') {
+            chatState = 2;
+            showPrices();
+          } else if (input === '3') {
+            addMessage('bot', 'Connecting you to Jemar Romero, our Project Lead…');
+            addMessage('bot', '<a href="https://m.me/jemar.romero.insta" target="_blank">Click here to chat with Jemar</a>', true);
+            resetChat();
+          } else {
+            fallback();
+          }
+          break;
+        case 1: // Services interest
+          if (input === 'yes') {
+            chatState = 3;
+            showPrices();
+          } else if (input === 'no') {
+            addMessage('bot', 'No problem! We’re here when you’re ready. Just type “Hi” again to restart.');
+            resetChat();
+          } else {
+            fallback();
+          }
+          break;
+        case 2: // Prices from menu
+        case 3: // Prices after yes
+          if (input === 'Basic' || input === 'Standard' || input === 'Customized') {
+            addMessage('bot', 'Got it! Connecting you LIVE to our designer via Facebook Messenger…');
+            addMessage('bot', '<a href="https://m.me/instacreate.designer" target="_blank">Click here to chat with Designer</a>', true);
+            resetChat();
+          } else if (input === 'yes') {
+            addQuickReplies([
+              { label: 'Basic', value: 'Basic' },
+              { label: 'Standard', value: 'Standard' },
+              { label: 'Customized', value: 'Customized' }
+            ]);
+          } else if (input === 'no') {
+            startChat(); // Back to main
+          } else {
+            fallback();
+          }
+          break;
+        default:
+          fallback();
+      }
+    }
+
+    function showPrices() {
+      addMessage('bot', 'Here are our 3 packages (based on complexity):\n\nPackage Price What You Get\nBasic ₱150 Template edit + 1 revision\nStandard ₱300 Custom layout + 2 revisions\nCustomized ₱500 Full original design + unlimited tweaks\n\nWhich one do you want?');
+      addQuickReplies([
+        { label: 'Basic', value: 'Basic' },
+        { label: 'Standard', value: 'Standard' },
+        { label: 'Customized', value: 'Customized' }
+      ]);
+      if (chatState === 2) {
+        addMessage('bot', 'Want to order?');
+        addQuickReplies([
+          { label: 'Yes', value: 'yes' },
+          { label: 'No', value: 'no' }
+        ]);
+      }
+    }
+
+    function fallback() {
+      addMessage('bot', 'Not sure? Type “Hi” to see options again, or “Jemar” to talk to our lead.');
+      if (chatInput.value.toLowerCase() === 'hi') {
+        startChat();
+      } else if (chatInput.value.toLowerCase() === 'jemar') {
+        handleResponse('3');
+      }
+    }
+
+    function resetChat() {
+      chatState = 0;
+      quickReplies.innerHTML = '';
+    }
+  </script>
+
+</body>
+</html>
